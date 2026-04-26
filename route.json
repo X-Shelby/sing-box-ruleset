@@ -72,13 +72,6 @@
       },
       {
         "rule_set":[
-          "geoip-geolocation-jp@amos"
-        ],
-        "action":"route",
-        "outbound":"JP Proxy"
-      },
-      {
-        "rule_set":[
           "geoip-category-video@!cn",
           "geosite-category-video@!cn"
         ],
@@ -277,13 +270,6 @@
         "type":"remote",
         "format":"binary",
         "url":"https://raw.githubusercontent.com/vstar37/sing-box-ruleset/main/rule/geosite-category-nsfw.srs",
-        "download_detour":"VPN"
-      },
-      {
-        "tag":"geoip-geolocation-jp@amos",
-        "type":"remote",
-        "format":"binary",
-        "url":"https://raw.githubusercontent.com/vstar37/sing-box-ruleset/main/rule/geoip-geolocation-jp@amos.srs",
         "download_detour":"VPN"
       },
       {
